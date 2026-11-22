@@ -18,6 +18,8 @@ Any node fails
 
 In n8n, build this once as an **error workflow** and set it as the error workflow of every production workflow.
 
+**Ready-made template:** [ilmic-ltd/n8n-error-handler](https://github.com/ilmic-ltd/n8n-error-handler) implements this pattern (Notion log, Telegram alert, personal-data clean-up, repeat grouping).
+
 ## Rules
 
 - **No client personal data in error messages or alerts.** Log record IDs, not names, phone numbers or emails.
